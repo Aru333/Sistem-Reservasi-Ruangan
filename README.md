@@ -22,7 +22,6 @@ Fitur Utama:
 2. Pengajuan Reservasi Ruangan (pilih tanggal, jam, dan tujuan) oleh pengguna terautentikasi (services/reservation_service.py). 
 3. Pengelolaan Status Reservasi oleh Admin(Pending Approved Rejected Cancelled) dan auto-cancel untuk multi pending cases  // 
 4. Riwayat Pemesanan & Dashboard Notifikasi. 
-5. Error bentrok penjadwalan 
 
 Aplikasi ini menggunakan 3 Design Pattern:
 
@@ -37,5 +36,3 @@ Aplikasi ini menggunakan 3 Design Pattern:
    **Solusi**: Kelas `Subject` memanggil method `notify()` saat terjadi perubahan event untuk memperbarui seluruh antarmuka `Observer` secara otomatis
 
 
-
-Yang belum ada:
