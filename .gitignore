@@ -221,3 +221,5 @@ __marimo__/
 #flet stuffs
 .flet/
 data_reservations.json
+
+#reapply gitignore
